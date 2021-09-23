@@ -1,0 +1,21 @@
+.board {
+	color: ghostwhite;
+	border: solid 1px black;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+	font-size: 10em;
+}
+
+.board td {
+	text-align: center;
+}
+.msg.ok {
+	color: ghostwhite;
+	padding: 1em;
+	background-color: limegreen;
+}
+.msg.err {
+	color: ghostwhite;
+	padding: 1em;
+	background-color: red;
+}
